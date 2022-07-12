@@ -1,2 +1,18 @@
 # Write down your observations and what did you learn new - in this file
 
+Question 1
+In this question  in the first half we have to return the count of a word in a sentence
+we use re.sub() to sub characters with whitespaces and then we get a new string and then we
+split the new string at whitespaces and run a for loop then we then we check for the word
+in the sentence and return the count of the word.
+in the second part, we return the list of the word in the given sentence for this we sub the
+string with whiltespace by using sub() and using the special character \W and then we get
+a new string which we split at whitespaces and then we get a list and run a for loop on the
+obtained list and then we write a pattern for the presence of the given word and then if the
+condition is true we append the word in a new list and return it
+Question 2
+In this question first we make use of \W to get only words and then we split the reduced
+sentence at whitespaces then we get a list and then we run a for loop on it and then in the
+for loop we use re.search() function to search for the word if the word is present then we
+append it into a new list and return it.
+
