@@ -35,6 +35,14 @@ def count_word_occurances(sentense, word):
     """
     count = 0
     # write you implementation here
+    l=[]
+    x=re.sub('\W',' ',sentense)
+    y=re.split(' ',x)
+    for i in y:
+        s=re.findall('^'+word,i)
+        if s:
+            l.append(s)
+    count=len(l)
 
     return count
 
